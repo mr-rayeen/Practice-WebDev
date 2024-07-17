@@ -1,0 +1,37 @@
+.main-heading{
+    text-align: center;
+}
+.dishes-container{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2.5rem;
+    row-gap: 1.5rem;
+    align-items: center;
+}
+.dish-card{
+    width: 10rem;
+    /* height: 15rem; */
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 20px;
+}
+.dish-card img {
+    width: 7rem;
+}
+.dish-card button{
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+    border: none;
+}
+.dish-card button:hover{
+    background-color: rgb(163, 163, 163);
+    color: whitesmoke;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
